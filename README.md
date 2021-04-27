@@ -8,9 +8,7 @@ Deploy Kubernetes cluster on AWS EKS with Terraform
 * Make the instance type customizable for each environment.
     
 This is the complete implementation of the infrastructure explained here:
-https://learnk8s.io/terraform-eks)
-
-<br>
+https://learnk8s.io/terraform-eks
 
 ### Some Random Notes
 
@@ -38,8 +36,6 @@ helm install ingress eks/aws-load-balancer-controller --set autoDiscoveryAwsRegi
 
 * Additional tools needed:  
 aws-iam-authenticator
-
-<br> 
 
 ### TODO
 
